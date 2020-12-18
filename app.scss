@@ -1,11 +1,19 @@
+
+// Inclou els botons mdc
 @use '@material/button/mdc-button';
 @use '@material/button';
+
+// Inclou la tipografia mdc
+@use '@material/typography';
+@use '@material/typography/mdc-typography';
+
+
+
 
 .foo-button {
   @include button.container-fill-color(darksalmon);
 }
 
 body {
-  color: blue;
-  font-size: 3em;
+  font-size: 1em;
 }
